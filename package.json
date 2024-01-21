@@ -4,9 +4,9 @@
   "description": "Clone do site tabnews - curso de programação Filipe Deschamps",
   "main": "index.js",
   "scripts": {
-    "dev" : "next dev",
-    "buid" : "next build",
-    "start" : "next start"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "",
   "license": "MIT",
@@ -14,5 +14,8 @@
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.4"
   }
 }
